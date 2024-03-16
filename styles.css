@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+.wrapper {
+    width: 100%;
+}
+
+
+/* phone view*/
+.logo {
+    display: none;
+}
+
+.shopName {
+    padding: 30px 30px 20px;
+    text-align: center;
+
+}
+
+.buttons1 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.btn.btn-outline-primary{
+    margin-bottom: 10px;
+}
+
+.buttons2 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn.btn-outline-warning{
+    margin-bottom: 10px;
+}
+
+.buttons3 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.outputDiv {
+    justify-content: center;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.button-clear {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.amount {
+    text-align: center;
+}
+
+.btn.btn-outline-primary, .btn.btn-outline-warning {
+    margin-top: 10px;
+}
+
+.output {
+    text-align: center;
+}
+
+
+/* tablet size */
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .amount {
+        text-align: center;
+    }
+
+    .output {
+        text-align: center;
+    }
+}
+
+
+/* desktop size */
+@media only screen and (min-width: 1000px){
+    .wrapper {
+        width: 1000px;
+    }
+
+    .buttons1 {
+        float: left;
+        width: 50%;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .buttons2 {
+        float: right;
+        width: 50%;
+        position: relative;
+        left: 30px;
+        top: -100px;
+    }
+
+    .btn.btn-outline-success.actionB {
+        position: relative;
+        right: 240px;
+        bottom: 300px;
+    }
+
+    .btn.btn-outline-danger {
+        position: relative;
+        right: 240px;
+        bottom: 315px;
+    }
+
+    .btn.btn-outline-primary, .btn.btn-outline-warning {
+        margin-top: 10px;
+    }
+
+    .amount {
+        text-align: center;
+    }
+
+    .output {
+        text-align: center;
+        position: relative;
+        right: 240px;
+        bottom: 300px;
+    }
+
+    .logo {
+        display: block;
+        width: 500px;
+        height: 300px;
+        position: relative;
+        left: 255px;
+        top: 150px;    
+    }
+
+    p {
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        right: 465px;
+    }
+}
+
+
+
+
